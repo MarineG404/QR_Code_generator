@@ -100,6 +100,15 @@ button {
 		input[type="file"]::-webkit-file-upload-button:hover {
 			background: var(--btn-hover);
 		}
+
+		input[type="color"] {
+			width: 50px;
+			height: 50px;
+			padding: 0;
+			border: none;
+			border-radius: 8px;
+			cursor: pointer;
+		}
 	}
 
 	#qrcode {

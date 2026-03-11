@@ -1,16 +1,17 @@
-# QR Code Generator
+# ✨ QR Code Generator
 
 Générateur simple de QR codes en HTML/CSS/JS avec option d'ajout d'une image (logo) au centre.
 
-## Fonctionnalités
+## ⚙️ Fonctionnalités
 
-- Génération de QR code à partir d'une URL ou d'un texte.
-- Ajout optionnel d'une image (logo) centrée dans le QR code.
+- 🔗 Génération de QR code à partir d'une URL ou d'un texte.
+- 🖼️ Ajout optionnel d'une image (logo) centrée dans le QR code.
+- 🎨 Changement de couleur possible
 
-## Utilisation
+## ℹ️ Utilisation
 
 https://qrcode.marinegonnord.fr
 
-## Autrice
+## 👩‍💻 Autrice
 
 Marine Gonnord — https://marinegonnord.fr

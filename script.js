@@ -2,6 +2,7 @@ const form = document.getElementById('qrForm');
 const qrcodeDiv = document.getElementById('qrcode');
 const dataInput = document.getElementById('data');
 const imageInput = document.getElementById('imageInput');
+const colorInput = document.getElementById('colorInput');
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -32,7 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 				const qrcode = new QRCode(tempContainer, {
 					text: data,
-					correctLevel: QRCode.CorrectLevel.H
+					correctLevel: QRCode.CorrectLevel.H,
+					colorDark: colorInput.value
 				});
 
 				// Wait for QR code to be generated
@@ -75,7 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		} else {
 			const qrcode = new QRCode(qrcodeDiv, {
 				text: data,
-				correctLevel: QRCode.CorrectLevel.H
+				correctLevel: QRCode.CorrectLevel.H,
+				colorDark: colorInput.value
 			});
 
 			console.log('Simple QR Code generated!');
